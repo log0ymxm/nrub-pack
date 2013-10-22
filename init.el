@@ -5,3 +5,7 @@
 
 ;; Load bindings config
 (live-load-config-file "bindings.el")
+
+;; Load libraries
+(live-add-pack-lib "scss-mode")
+(require 'scss-mode)
